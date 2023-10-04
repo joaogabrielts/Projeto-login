@@ -30,7 +30,7 @@ div#formulario > h1{
 
 div#formulario > p{
     font-size: 1em;
-    margin-bottom: 10px;
+    
 }
  
 
@@ -65,7 +65,7 @@ background-image: linear-gradient(to top, #49a09d, #5f2c82 );
 
     div#formulario > p{
         font-size: 1.2em;
-        margin-bottom: 10px;
+        
     }
     
 } 
