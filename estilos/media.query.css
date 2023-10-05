@@ -8,6 +8,7 @@
         }
 section#login{
     width: 80vw;
+    height: 300px;
 }
 
 section#login > div#imagem{
@@ -27,9 +28,16 @@ div#formulario > h1{
 
 }
 
+div.campo > input {
+  
+    width: calc(100% - 11%);
+
+}
+
 
 div#formulario > p{
     font-size: 1em;
+    margin: 20px 0px;
     
 }
  
@@ -45,6 +53,7 @@ background-image: linear-gradient(to top, #49a09d, #5f2c82 );
 
     section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -65,9 +74,13 @@ background-image: linear-gradient(to top, #49a09d, #5f2c82 );
 
     div#formulario > p{
         font-size: 1.2em;
+        margin: 20px 0px;
         
     }
     
+    div.campo > input{
+        width: calc(100% - 10%);
+    }
 } 
 
 
